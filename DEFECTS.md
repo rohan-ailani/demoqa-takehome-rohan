@@ -73,3 +73,26 @@ Medium
 
 ### Impact
 Users may not know what information is mandatory. Reduced accessibility and clarity for end users
+
+
+## Defect 4: Ad popup blocks interaction with checkbox tree
+
+### Description: 
+On the checkbox tree form, there is an unexpected ad pop up which blocks the interaction with the checkbox tree causing the test to fail
+
+### Steps to reproduce:
+1. Go to https://demoqa.com/checkbox
+2. Attempt to click on the first checkbox, followed by the second and so on
+3. The ad popup appears
+4. Attempt to click on the checkboxes which are covered by the ad overlay
+
+### Expected Result: 
+The checkbox tree should be fully accessible and the user shouldn't have any issue interacting with the tree
+
+### Actual Result: 
+The checkbox tree isn't fully accessible and the user has issues interacting with the tree causing the test to fail
+
+### Severity: HIGH
+
+### Impact: 
+This breaks core workflow, stifles the test from running and causes issues where elements on the page can't be interacted with 
