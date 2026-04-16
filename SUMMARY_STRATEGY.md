@@ -30,6 +30,7 @@ My exploratory and automated testing identified three critical areas of concern 
 - Defect 1: Future Date Validation (Data Integrity): The "Date of Birth" picker permits the selection of future dates (up to the year 2100). This lack of boundary validation allows invalid data into the system, potentially breaking downstream age-restricted logic or analytics.
 - Defect 2: Critical Runtime Error on Modal Closure (Functional/Stability): Upon successful submission, clicking the "Close" button on the confirmation modal fails to execute. Investigation of the browser console reveals a TypeError: Lr.findDOMNode is not a function. This suggests a regression or incompatibility in the underlying React/third-party libraries, effectively trapping the user in the success state.
 - Defect 3: Missing Required Field Indicators (UX/Accessibility): The UI lacks standard visual cues (such as asterisks or "required" labels). Users are forced to use "trial-and-error" submission to identify mandatory fields. This increases friction and fails to meet basic web accessibility standards.
+- Defect 4: An unexpected UI overlay was discovered on the Checkbox page, which obstructs interaction with the checkbox tree and prevents successful execution of selection-based workflows.
 
 ## Scalability & Future Recommendations
 - **Add CI/CD:** Run tests automatically on every push using Buildkite or GitHub Actions. I have attempted to have these tests integrated with GitHub Actions and run automatically on every push and pull request to main.
