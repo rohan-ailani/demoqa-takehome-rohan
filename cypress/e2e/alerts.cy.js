@@ -10,6 +10,9 @@ describe('Alerts Page', () => {
     alertsPage.clickConfirmButton()
 
     alertsPage.verifyResult('Ok')
+
+    cy.log('Handles confirmation alert test passed')
+
   })
 
 })
