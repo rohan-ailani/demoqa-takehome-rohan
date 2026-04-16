@@ -32,6 +32,6 @@ My exploratory and automated testing identified three critical areas of concern 
 - Defect 3: Missing Required Field Indicators (UX/Accessibility): The UI lacks standard visual cues (such as asterisks or "required" labels). Users are forced to use "trial-and-error" submission to identify mandatory fields. This increases friction and fails to meet basic web accessibility standards.
 
 ## Scalability & Future Recommendations
-- **Add CI/CD:** Run tests automatically on every push using Buildkite or GitHub Actions.
+- **Add CI/CD:** Run tests automatically on every push using Buildkite or GitHub Actions. I have attempted to have these tests integrated with GitHub Actions and run automatically on every push and pull request to main.
 - **Speed things up:** Run tests in parallel as the suite grows.
 - **Use APIs for setup:** Create test data via API instead of UI to keep tests fast and focused.
