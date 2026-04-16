@@ -30,3 +30,8 @@ Clone the repositor and install dependencies
 3. `cypress/videos` : Stores videos of test runs
 4. `DEFECTS.md`: Documentation of bugs identified during manual click throughs and automation runs
 5. `STRATEGY.md` : My one pager highlighting my thought process, choices and decisions
+
+## CI/CD
+I have made an attempt to run CI/CD through GitHub Actions. The tests should run automatically with:
+1. Every push to main
+2. Every pull request
