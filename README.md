@@ -32,6 +32,6 @@ Clone the repositor and install dependencies
 5. `STRATEGY.md` : My one pager highlighting my thought process, choices and decisions
 
 ## CI/CD
-I have made an attempt to run CI/CD through GitHub Actions. The tests should run automatically with:
+CI/CD runs through GitHub Actions. The tests should run automatically with:
 1. Every push to main
 2. Every pull request
