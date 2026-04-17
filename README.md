@@ -15,7 +15,7 @@ The files in this repository cover:
 2. npm
 
 ### Installation
-Clone the repositor and install dependencies
+Clone the repository and install dependencies
 `npm install`
 
 ## How to Run Tests
