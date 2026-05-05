@@ -1,8 +1,7 @@
-# Rohan's Take Home Challenge - Cypress Automation - DemoQA
+# Cypress Automation - DemoQA
 
 ## Overview
-In this take home challenge, I automated UI testing using Cypress as the framework and JavaScript as my language of choice for 
-the demo website https://demoqa.com
+I automated UI testing using Cypress as the framework and JavaScript as my language of choice for the demo website https://demoqa.com
 
 The files in this repository cover:
 1. Automation practice form submission flow
